@@ -9,7 +9,6 @@
     </parent>
 
     <artifactId>microcloud-consumer-80</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>microcloud-consumer-80</name>
@@ -56,6 +55,4 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>

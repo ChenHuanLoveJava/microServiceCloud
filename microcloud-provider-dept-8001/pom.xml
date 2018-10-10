@@ -9,10 +9,8 @@
     </parent>
 
     <artifactId>microcloud-provider-dept-8001</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>microcloud-provider-dept-8001</name>
-    <description>Demo project for Spring Boot</description>
 
 
     <properties>
@@ -22,6 +20,7 @@
     </properties>
 
     <dependencies>
+        <!--引入自己定义的api通用包，可以使用Dept部门Entity-->
         <dependency>
             <groupId>com.sedin</groupId>
             <artifactId>microcloud-api</artifactId>
@@ -67,11 +66,22 @@
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
 
-        <!--Springsecurity给服务端提供安全访问-->
+        <!--SpringSecurity给服务端提供安全访问-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
+
+        <!-- 将微服务provider侧注册进eureka -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

@@ -18,11 +18,11 @@ spring:
       initial-size: 5
       max-total: 5
       max-wait-millis: 200
-  security:                       #  springSecurity的安全配置
-    user:
-      name: chenhuan
-      password: chenhuan123!
-      roles: -USER
+#  security:                       #  springSecurity的安全配置
+#    user:
+#      name: chenhuan
+#      password: root
+#      roles: -USER
 
 #日志设置
 logging:

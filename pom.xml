@@ -73,6 +73,12 @@
 
     <build>
         <finalName>microcloud</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -81,6 +87,15 @@
                     <source>${java.version}</source><!-- 源代码使用的开发版本 -->
                     <target>${java.version}</target><!-- 需要生成的目标class文件的编译版本 -->
                     <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <delimiters>
+                        <delimit>$</delimit>
+                    </delimiters>
                 </configuration>
             </plugin>
         </plugins>

@@ -1,8 +1,8 @@
-package com.sedin.microcloudproviderdept8001.service.impl;
+package com.sedin.microcloudproviderdept8003.service.impl;
 
 import com.sedin.microcloudapi.Dept;
-import com.sedin.microcloudproviderdept8001.dao.IDeptDao;
-import com.sedin.microcloudproviderdept8001.service.IDeptService;
+import com.sedin.microcloudproviderdept8003.dao.IDeptDao;
+import com.sedin.microcloudproviderdept8003.service.IDeptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

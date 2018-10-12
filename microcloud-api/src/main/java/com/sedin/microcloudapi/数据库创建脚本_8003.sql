@@ -1,0 +1,23 @@
+DROP DATABASE IF EXISTS cloudDB03;
+
+CREATE DATABASE cloudDB03 CHARACTER SET UTF8;
+
+USE cloudDB03;
+
+
+CREATE TABLE dept
+(
+  deptno BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  dname VARCHAR(60),
+  loc   VARCHAR(60)
+);
+
+INSERT INTO dept(dname,loc) VALUES('开发部',DATABASE());
+INSERT INTO dept(dname,loc) VALUES('人事部',DATABASE());
+INSERT INTO dept(dname,loc) VALUES('财务部',DATABASE());
+INSERT INTO dept(dname,loc) VALUES('市场部',DATABASE());
+INSERT INTO dept(dname,loc) VALUES('运维部',DATABASE());
+
+SELECT * FROM dept;
+
+

@@ -1,4 +1,4 @@
-package com.sedin.microcloudproviderdept8001.dao;
+package com.sedin.microcloudproviderdept8003.dao;
 
 import com.sedin.microcloudapi.Dept;
 import org.apache.ibatis.annotations.Insert;

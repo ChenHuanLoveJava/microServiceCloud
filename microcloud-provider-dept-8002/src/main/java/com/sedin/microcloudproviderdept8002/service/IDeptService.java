@@ -1,4 +1,4 @@
-package com.sedin.microcloudproviderdept8001.service;
+package com.sedin.microcloudproviderdept8002.service;
 
 import com.sedin.microcloudapi.Dept;
 

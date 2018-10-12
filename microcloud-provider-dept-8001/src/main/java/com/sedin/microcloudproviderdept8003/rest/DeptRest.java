@@ -1,8 +1,7 @@
-package com.sedin.microcloudproviderdept8001.rest;
+package com.sedin.microcloudproviderdept8003.rest;
 
 import com.sedin.microcloudapi.Dept;
-import com.sedin.microcloudproviderdept8001.service.IDeptService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.sedin.microcloudproviderdept8003.service.IDeptService;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
